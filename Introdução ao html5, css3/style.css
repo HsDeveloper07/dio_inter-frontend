@@ -1,32 +1,42 @@
-body{
-    background: #ccc;
+body {
+  background: #ccc;
+  margin: auto;
 }
 
-#title, .subtitle, .post_title{
-    color: blue;
+#title,.subtitle,.post_title {
+    font-family: sans-serif;
+  color: blue;
+  margin: 10px;
 }
 
-.post_title{
-    font-size: 16x;
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 15px;
+.avatar {
+  border-radius: 100px;
+  width: 200px;
+  margin: 10px;
 }
 
-.post{
-    background: #fff;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
+.post_title {
+  font-size: 16x;
+  font-style: italic;
+  margin: 10px;
+  margin-bottom: 15px;
 }
 
-.post_content{
-    margin: 0;
-    margin-bottom: 15px;
+.post {
+  background: #fff;
+  padding: 10px;
+  border: 3px solid #000;
+  margin: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
-.post_image{
-    margin-bottom: 15px;
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post_image {
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
