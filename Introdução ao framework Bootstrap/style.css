@@ -1,0 +1,13 @@
+body {
+  background-color: #3c3f41;
+  margin: auto;
+}
+
+.navbar {
+  background-color: black;
+  color: aliceblue;
+}
+
+.navbar-item{
+  color: aliceblue;
+}
